@@ -1,33 +1,34 @@
 # Hi, I'm Dane 👋
 
-I build **[Mokxi](https://mokxi.com)**, an electronics workbench that runs in your browser: a breadboard, real parts, wires and microcontroller boards next to a code editor. Press Run, and the circuit and the firmware run together in real time, with nothing simulated or compiled on a server.
+I'm a solo founder. I build **[Mokxi](https://mokxi.com)**, an electronics workbench that runs in your browser. You put a breadboard, parts and a microcontroller next to a code editor, hit Run, and the circuit and the code run together in real time. Nothing to install.
+
+You can find all my other projects at 🐝 **[danedolph.com](https://danedolph.com)**.
+
+## Mokxi at a glance
+
+- 7,300+ makers, students and teachers since launching in September 2026, with paying customers
+- 45 simulated boards (Arduino, ESP32, Raspberry Pi Pico, Raspberry Pi 4 and 5, STM32 and more) and hundreds of parts
+- Lessons, a weekly challenge, classrooms with auto-graded assignments, and an EE lab for exam prep
+- Works inside ChatGPT and Claude through its own MCP server, plus a VS Code extension and a CLI
 
 **[Try it at mokxi.com →](https://mokxi.com)**
 
-You can find all my cool projects at my personal website, **[danedolph.com](https://danedolph.com)**.
+## What I built
 
-## What's under the hood
+- **CPU emulators in Rust, compiled to WebAssembly.** AVR, ARM Cortex-M, RISC-V and Xtensa, so real Arduino and ESP32 firmware runs right in the tab.
+- **A circuit simulator.** Digital events plus an analog solver for diodes, transistors, MOSFETs and op-amps, checked against ngspice.
+- **A C++ compiler in the browser.** Clang built to WebAssembly, so sketches compile on your own machine. MicroPython and CircuitPython run too.
+- **The whole product around it.** Accounts, live collaboration, classrooms, Stripe billing and support, all on Cloudflare Workers and D1.
 
-Mokxi is built from scratch, end to end: no other simulator's code is inside it.
+## How I work
 
-- **Own CPU cores in Rust, compiled to WebAssembly:** AVR (Arduino Uno, Nano, Mega, Leonardo, ATtiny85), ARM Cortex-M (Raspberry Pi Pico, STM32, Arduino Uno R4), RISC-V (ESP32-C3, ESP32-C6) and Xtensa (ESP32, ESP32-S3, ESP8266).
-- **A circuit simulator:** an event-driven digital kernel, plus an analog solver (modified nodal analysis, Newton-Raphson) for diodes, transistors, MOSFETs and op-amps, checked against ngspice.
-- **A C++ compiler in the browser:** clang built to WebAssembly, so Arduino sketches build on the visitor's own machine. MicroPython and CircuitPython boards run too.
-- **Simulated WiFi:** six boards can fetch pages, serve them and publish over MQTT through a simulated network.
-- **The platform:** accounts, saved projects, live collaboration (Durable Objects), classrooms with auto-marked assignments, lessons, and Stripe subscriptions, all on Cloudflare Workers and D1.
+I run Mokxi end to end: product, code, design, support and deploys. I lead a team of AI coding agents, so my job is deciding what to build, reviewing the work, merging it and shipping it, usually several releases a week.
 
 ## Stack
 
-`Rust` · `WebAssembly` · `TypeScript` · `Vite` · `Cloudflare Workers` · `D1` · `Durable Objects` · `R2` · `Stripe` · `Playwright` · `Vitest` · `GitHub Actions`
-
-## Numbers
-
-- Launched September 2026, with paying customers and thousands of makers, students and teachers.
-- 25+ simulated chips and boards, 800+ guide and project pages.
-- Shipped by a solo founder working with AI coding agents. I run the merges, deploys and support myself.
+`Rust` · `WebAssembly` · `TypeScript` · `Vite` · `Cloudflare Workers` · `D1` · `Durable Objects` · `R2` · `Stripe` · `Playwright` · `Vitest`
 
 ## Get in touch
 
-- 🐝 [danedolph.com](https://danedolph.com), all my projects
+- 🐝 [danedolph.com](https://danedolph.com)
 - 🌐 [mokxi.com](https://mokxi.com)
-- 📫 Through the Contact page on mokxi.com
