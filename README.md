@@ -4,6 +4,8 @@ I build **[Mokxi](https://mokxi.com)**, an electronics workbench that runs in yo
 
 **[Try it at mokxi.com →](https://mokxi.com)**
 
+You can find all my cool projects at my personal website, **[danedolph.com](https://danedolph.com)**.
+
 ## What's under the hood
 
 Mokxi is built from scratch, end to end: no other simulator's code is inside it.
@@ -26,5 +28,6 @@ Mokxi is built from scratch, end to end: no other simulator's code is inside it.
 
 ## Get in touch
 
+- 🌐 [danedolph.com](https://danedolph.com), all my projects
 - 🌐 [mokxi.com](https://mokxi.com)
 - 📫 Through the Contact page on mokxi.com
