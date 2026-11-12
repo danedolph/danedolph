@@ -28,6 +28,6 @@ Mokxi is built from scratch, end to end: no other simulator's code is inside it.
 
 ## Get in touch
 
-- 🌐 [danedolph.com](https://danedolph.com), all my projects
+- 🐝 [danedolph.com](https://danedolph.com), all my projects
 - 🌐 [mokxi.com](https://mokxi.com)
 - 📫 Through the Contact page on mokxi.com
