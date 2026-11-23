@@ -6,7 +6,7 @@ I'm building it solo. My other projects are on 🐝 **[danedolph.com](https://da
 
 ## Mokxi at a glance
 
-- 7,300+ makers, students and teachers since September 2026 and paying customers
+- 11,600+ makers, students and teachers since September 2026 and paying customers
 - 45 simulated boards like Arduino, ESP32, Raspberry Pi and STM32 plus hundreds of parts
 - Lessons and a weekly challenge for learners
 - Classrooms with auto-graded assignments for teachers
