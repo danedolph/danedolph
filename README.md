@@ -4,17 +4,6 @@ I build **[Mokxi](https://mokxi.com)**. It's an electronics workbench that runs 
 
 I'm building it solo. My other projects are on 🐝 **[danedolph.com](https://danedolph.com)**.
 
-## Mokxi at a glance
-
-- 11,600+ makers, students and teachers since September 2026 and paying customers
-- 45 simulated boards like Arduino, ESP32, Raspberry Pi and STM32 plus hundreds of parts
-- Lessons and a weekly challenge for learners
-- Classrooms with auto-graded assignments for teachers
-- An EE lab for exam prep
-- Works inside ChatGPT and Claude with its own MCP server. There's a VS Code extension and a CLI too.
-
-**[Try it at mokxi.com →](https://mokxi.com)**
-
 ## What I built
 
 - **CPU emulators in Rust compiled to WebAssembly.** Real Arduino and ESP32 firmware runs right in the tab.
